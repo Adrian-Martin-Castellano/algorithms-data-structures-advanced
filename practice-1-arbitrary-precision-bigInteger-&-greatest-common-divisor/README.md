@@ -1,11 +1,11 @@
 # Assignment 1: Arbitrary Precision BigInteger & Greatest Common Divisor (GCD)
 
-## 📝 Overview
+## Overview
 This assignment implements a custom high-performance library for arbitrary-precision unsigned integers (`BigUnsigned`) and signed integers (`BigInteger`) in modern C++. It includes a recursive implementation of the Euclidean algorithm to calculate the Greatest Common Divisor (GCD) of extraordinarily large values without suffering from integer overflow.
 
 ---
 
-## 🚀 Performance Optimizations Implemented
+## Performance Optimizations Implemented
 
 *   **Schoolbook Multiplication ($O(N \cdot M)$)**: Replaced the slow, nested additive loop system with an optimized column-carry digit multiplication.
 *   **Fast Division ($O(\text{bits}^2)$)**: Replaced successive subtractor loops with a binary Shift-and-Subtract algorithm, allowing division of numbers with hundreds of digits to run instantaneously.
@@ -13,7 +13,7 @@ This assignment implements a custom high-performance library for arbitrary-preci
 
 ---
 
-## 🛠️ Compilation & Automation (Makefile)
+## Compilation & Automation (Makefile)
 
 The project includes a `Makefile` to compile, build, and clean the workspace easily.
 
@@ -37,7 +37,7 @@ The default build targets use the following structure:
 
 ---
 
-## 💻 How to Run & Test
+## How to Run & Test
 
 You can run the program interactively or redirect the inputs directly from the provided `ejemplos.txt` file.
 
