@@ -1,3 +1,12 @@
+// Universidad de La Laguna
+// Escuela Superior de Ingeniería y Tecnología
+// Grado en Ingeniería Informática
+// Curso: 2º
+// Práctica 2: Algoritmos y Estructuras de Datos Avanzadas
+// Autor: Adrián Martín Castellano
+// Correo: alu0101547619@ull.edu.es
+// Fecha: 25/02/2025
+
 #pragma once
 #include "BigUnsigned.h"
 
