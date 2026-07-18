@@ -3,15 +3,11 @@
 ## Overview
 This assignment implements a custom high-performance library for arbitrary-precision unsigned integers (`BigUnsigned`) and signed integers (`BigInteger`) in modern C++. It includes a recursive implementation of the Euclidean algorithm to calculate the Greatest Common Divisor (GCD) of extraordinarily large values without suffering from integer overflow.
 
----
-
 ## Performance Optimizations Implemented
 
 *   **Schoolbook Multiplication ($O(N \cdot M)$)**: Replaced the slow, nested additive loop system with an optimized column-carry digit multiplication.
 *   **Fast Division ($O(\text{bits}^2)$)**: Replaced successive subtractor loops with a binary Shift-and-Subtract algorithm, allowing division of numbers with hundreds of digits to run instantaneously.
 *   **Undefined Behavior Fixes**: Corrected unsafe `reinterpret_cast` usage over transient string buffers by employing safe explicit string parsing.
-
----
 
 ## Compilation & Automation (Makefile)
 
@@ -34,8 +30,6 @@ The default build targets use the following structure:
     ```bash
     make clean
     ```
-
----
 
 ## How to Run & Test
 
