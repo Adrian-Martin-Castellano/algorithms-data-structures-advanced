@@ -18,11 +18,11 @@ The core objective across these assignments is the design, implementation, and e
 
 The repository is structured into 4 independent standalone projects:
 
-### [Practice 1: Towers of Hanoi & Complexity Analysis](./practice-1-arbitrary-precision-bigInteger-&-greatest-common-divisor/)
+### [Practice 1: Arbitrary Precision BigInteger & Greatest Common Divisor](./practice-1-arbitrary-precision-bigInteger-&-greatest-common-divisor/)
 * **Objective:** Practical study of recursion mechanics and algorithmic complexity profiling using the classic Towers of Hanoi puzzle.
 * **Key Components:** Experimental time-performance mapping ($O(2^n)$) and detailed execution trace logs tracking disk movements between pegs.
 
-### [Practice 2: Linear Data Structures & AVL Simulator](./practice-2-precision-bigRational-&-template-specialization/)
+### [Practice 2: Arbitrary Precision BigRational & Template Specialization](./practice-2-precision-bigRational-&-template-specialization/)
 * **Objective:** Implementation of foundational dynamic container wrappers (lists, queues, stacks) and behavioral modeling of self-balancing AVL binary search trees.
 * **Key Components:** Abstract sequence definitions and polymorphic interfaces for structured sequential and hierarchical data storage.
 
@@ -33,7 +33,7 @@ The repository is structured into 4 independent standalone projects:
   * **Closed Hashing:** Open addressing layout bound to rigid memory buckets (`StaticSequence`) supporting linear, quadratic, double-hashing, and deterministic pseudo-random re-hashing collision strategies.
   * **Domain Entity:** National Identity Numbers (`Nif`) used as primary lookup table database keys.
 
-### [Practice 4: Polymorphic Sorting Algorithms Framework](./practice-4-polymorphic-sorting-algorithms/)
+### [Practice 4: Polymorphic Sorting Algorithms](./practice-4-polymorphic-sorting-algorithms/)
 * **Objective:** Development of an empirical auditing framework to execute, benchmark, and trace the internal state machine flow of classic sorting routines.
 * **Key Components:**
   * **Quadratic Algorithms:** Straight Insertion Sort ($O(n^2)$) and Bidirectional Cocktail Shaker Sort (`Sacudida`).
